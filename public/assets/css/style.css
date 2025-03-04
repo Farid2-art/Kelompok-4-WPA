@@ -1,0 +1,20 @@
+/* Pastikan halaman penuh dan footer tetap di bawah */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1; /* Membuat konten utama mengisi ruang yang tersedia */
+}
+
+footer {
+    background: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
